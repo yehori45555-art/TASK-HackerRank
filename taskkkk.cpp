@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-
+ 
 bool isValid(const std::string& s) {
     for (char c : s) {
         if (!((c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9'))) {
